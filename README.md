@@ -44,6 +44,8 @@ The [/data/input](/data/input) folder contains JSON files of the metadata for ea
 
 The [/data/output](/data/output) folder contains JSON files of all other road agents in the scene. the JSON file contains an array of 
 
+| Field | Description | Unit |
+| --- | --- | --- |
 | Object | the type of road agents (Car/Pedestrian) |  |
 | Location | The location of the ceneter of the road agent (x,y) | meters |
 | Rotation | The rotation of the road agent | degree |
