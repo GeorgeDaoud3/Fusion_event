@@ -23,7 +23,7 @@ Two self-driving cars are approaching an intersection, each equipped with:
 
 The environment includes vehicles, pedestrians, and cyclists, some of whom may block each vehicle’s view. By communicating and sharing sensor data, the vehicles can collaborate to overcome occlusions and enhance situational understanding.
 
-![/images/scene.png](/images/scene.png)
+![scene](/images/scene.png)
 
 ## 🎯 Goal
 
