@@ -25,7 +25,31 @@ The environment includes vehicles, pedestrians, and cyclists, some of whom may b
 
 ![scene](/images/scene.png)
 
-## 🎯 Goal
+## Dataset Description
+
+The [/data/input](/data/input) folder contains JSON files of the metadata for each scene. the JSON file contains the following information
+
+| Field | Description | Unit |
+| --- | --- | --- |
+| CarA_Camera | Path to the image captured by the first vehicle's camera |  |
+| CarA_Lidar | Path to the point cloud captured by the first vehicle's Lidar|  |
+| CarA_Location | The location of the ceneter of the first vehicle (x,y) | meters |
+| CarA_Rotation | The rotation of the first vehicle | degree |
+| CarA_Dimension | The dimension of the first vehicle (Length,Width,Height) | m |
+| CarB_Camera | Path to the image captured by the second vehicle's camera |  |
+| CarB_Lidar | Path to the point cloud captured by the second vehicle's Lidar|  |
+| CarB_Location | The location of the ceneter of the second vehicle (x,y) | meters |
+| CarB_Rotation | The rotation of the second vehicle | degree |
+| CarB_Dimension | The dimension of the second vehicle (Length,Width,Height) | m |
+
+The [/data/output](/data/output) folder contains JSON files of all other road agents in the scene. the JSON file contains an array of 
+
+| Object | the type of road agents (Car/Pedestrian) |  |
+| Location | The location of the ceneter of the road agent (x,y) | meters |
+| Rotation | The rotation of the road agent | degree |
+| Dimension | The dimension of the road agent (Length,Width,Height) | m |
+
+  ## 🎯 Goal
 
 Process the raw camera and LiDAR data from both vehicles to:
 
