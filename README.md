@@ -27,7 +27,7 @@ The environment includes vehicles, pedestrians, and cyclists, some of whom may b
 
 ## Dataset Description
 
-The [/data/input](/data/input) folder contains a JSON metadata file for each scene. the JSON file contains the following information
+The [/data/input](/data/input) folder contains a JSON metadata file for each scene. Each JSON file contains the following information
 
 | Field | Description | Unit |
 | --- | --- | --- |
@@ -42,7 +42,7 @@ The [/data/input](/data/input) folder contains a JSON metadata file for each sce
 | CarB_Rotation | The rotation of the second vehicle | degree |
 | CarB_Dimension | The dimensions of the second vehicle (Length, Width, Height) | meters |
 
-The [/data/output](/data/output) folder contains JSON files of all other road agents in the scene. the JSON file contains an array of 
+The [/data/output](/data/output) folder contains JSON files of all other road agents in the scene. Each JSON file contains an array of 
 
 | Field | Description | Unit |
 | --- | --- | --- |
