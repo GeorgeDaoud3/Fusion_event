@@ -4,8 +4,8 @@
 🔍 Problem
 Autonomous vehicles rely on sensors like LiDAR and cameras to perceive their environment. Each sensor has strengths and limitations:
 
-     LiDAR provides accurate 3D data but lacks color information.
-    Cameras capture rich visuals but are sensitive to lighting conditions.
+* LiDAR provides accurate 3D data but lacks color information.
+* Cameras capture rich visuals but are sensitive to lighting conditions.
 
 
 Individually, these sensors can be noisy or miss key details due to occlusions from other road agents. However, by fusing data from multiple sensors and vehicles, we can create a more reliable, comprehensive view of the scene, improving safety and awareness.
