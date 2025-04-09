@@ -33,23 +33,23 @@ The [/data/input](/data/input) folder contains a JSON metadata file for each sce
 | --- | --- | --- |
 | CarA_Camera | Path to the image captured by the first vehicle's camera |  |
 | CarA_Lidar | Path to the point cloud captured by the first vehicle's Lidar|  |
-| CarA_Location | The location of the center of the first vehicle (x,y) | meters |
+| CarA_Location | The location of the center of the first vehicle (x, y) | meters |
 | CarA_Rotation | The rotation of the first vehicle | degree |
-| CarA_Dimension | The dimension of the first vehicle (Length,Width,Height) | m |
+| CarA_Dimension | The dimensions of the first vehicle (Length, Width, Height) | m |
 | CarB_Camera | Path to the image captured by the second vehicle's camera |  |
 | CarB_Lidar | Path to the point cloud captured by the second vehicle's Lidar|  |
-| CarB_Location | The location of the ceneter of the second vehicle (x,y) | meters |
+| CarB_Location | The location of the center of the second vehicle (x, y) | meters |
 | CarB_Rotation | The rotation of the second vehicle | degree |
-| CarB_Dimension | The dimension of the second vehicle (Length,Width,Height) | meters |
+| CarB_Dimension | The dimensions of the second vehicle (Length, Width, Height) | meters |
 
 The [/data/output](/data/output) folder contains JSON files of all other road agents in the scene. the JSON file contains an array of 
 
 | Field | Description | Unit |
 | --- | --- | --- |
 | Object | the type of road agents (Car/Pedestrian) |  |
-| Location | The location of the ceneter of the road agent (x,y) | meters |
+| Location | The location of the center of the road agent (x, y) | meters |
 | Rotation | The rotation of the road agent | degree |
-| Dimension | The dimension of the road agent (Length,Width,Height) | meters |
+| Dimension | The dimensions of the road agent (Length, Width, Height) | meters |
 
   ## 🎯 Goal
 
