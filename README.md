@@ -32,7 +32,7 @@ The camera Intrinsic Matrix is
   0            , 0            , 1
 ```
 
-Each lidar is mounted above the center of its vehicle by 1.7 meter. The camera as well is mounted 1.5 meters above the center. Both are perfectly directed forward towards the front of the vehicle parallel to the road level.
+Each lidar is mounted above the center of its vehicle by 1.7 meters. The camera, as well, is mounted 1.5 meters above the center. Both are directed towards the front of the car, parallel to the road level.
 
 ## Dataset Description
 
